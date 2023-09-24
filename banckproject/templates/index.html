@@ -1,0 +1,492 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finbank || Responsive HTML 5 Template</title>
+    <!-- Favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'assets/images/favicons/apple-touch-icon.png' %}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'assets/images/favicons/favicon-32x32.png' %}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'assets/images/favicons/favicon-16x16.png' %}" />
+    <link rel="manifest" href="{% static 'assets/images/favicons/site.webmanifest' %}" />
+    <meta name="description" content="Finbank HTML 5 Template " />
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'assets/vendors/animate/animate.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/animate/custom-animate.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/bootstrap/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/bxslider/jquery.bxslider.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/fontawesome/css/all.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/jquery-ui/jquery-ui.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/nice-select/nice-select.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/odometer/odometer.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/owl-carousel/owl.carousel.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/owl-carousel/owl.theme.default.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/swiper/swiper.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/vegas/vegas.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/vendors/thm-icons/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/language-switcher/polyglot-language-switcher.css' %}">
+    <!-- Module css -->
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/01-header-section.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/02-banner-section.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/03-about-section.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/04-fact-counter-section.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/05-testimonial-section.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/06-partner-section.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/07-footer-section.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/module-css/08-blog-section.css' %}">
+
+    <!-- Template styles -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}" />
+
+</head>
+
+
+<body>
+
+    <!-- Start preloader -->
+    <div class="loader-wrap">
+        <div class="preloader">
+            <div class="preloader-close">x</div>
+            <div id="handle-preloader" class="handle-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <span data-text-preloader="f" class="letters-loading">
+                            f
+                        </span>
+                        <span data-text-preloader="i" class="letters-loading">
+                            i
+                        </span>
+                        <span data-text-preloader="n" class="letters-loading">
+                            n
+                        </span>
+                        <span data-text-preloader="b" class="letters-loading">
+                            b
+                        </span>
+                        <span data-text-preloader="a" class="letters-loading">
+                            a
+                        </span>
+                        <span data-text-preloader="n" class="letters-loading">
+                            N
+                        </span>
+                        <span data-text-preloader="k" class="letters-loading">
+                            k
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End preloader -->
+
+
+   
+            <!--End Main Header Style1 Top-->
+
+            <nav class="main-menu main-menu-style1">
+                <div class="main-menu__wrapper clearfix">
+                    <div class="container">
+                        <div class="main-menu__wrapper-inner">
+
+                            <div class="main-menu-style1-left">
+                                <div class="logo-box-style1">
+                                    <a href="index.html">
+                                        <img src="{% static 'assets/images/resources/logo-1.png' %}" alt="Awesome Logo" title="">
+                                    </a>
+                                </div>
+
+                                <div class="main-menu-box">
+                                    <a href="#" class="mobile-nav__toggler">
+                                        <i class="icon-menu"></i>
+                                    </a>
+
+                                    <ul class="main-menu__list">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                            
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="#">BRANCHES</a>
+                                            <ul>
+                                                <li><a href="https://en.wikipedia.org/wiki/Kozhikode">Calicut</a></li>
+                                                <li><a href="https://en.wikipedia.org/wiki/Ernakulam">Eranakulam</a></li>
+                                                <li><a href="https://en.wikipedia.org/wiki/Malappuram">Malappuram</a></li>
+                                                <li><a href="https://en.wikipedia.org/wiki/Kottayam">Kottayam</a></li>
+                                                <li><a href="https://en.wikipedia.org/wiki/Palakkad">palakkadu</a></li>
+                                               
+                                                
+                                                
+                                                
+                                                    
+                                                   
+                                                
+                                            </ul>
+                                        </li>
+
+                                    
+                                           
+                                    {% if user.is_authenticated %}
+									<li>Hello {{user.username}}</li>
+									<li><a href="{% url 'credentials:logout'%}">LOGOUT</a></li>
+									{% else %}
+									<li><a href="{% url 'credentials:register'%}">REGISTER</a></li>
+									<li><a href="{% url 'credentials:login'%}">LOGIN</a></li>
+									{% endif %}
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="contact.html"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="main-menu-style1-right">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!--Start Main Header Style1 Bottom-->
+            <div class="main-header-style1-bottom">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <div class="update-box">
+                            <div class="inner-title">
+                                <span class="icon-megaphone"></span>
+                                <h4>Updates:</h4>
+                            </div>
+                            <div class="text">
+                                <p>Get upto 4%* on our Savings Account Balances with Finbank.</p>
+                                <a href="#"><span class="icon-chevron"></span>More Details</a>
+                            </div>
+                        </div>
+                        <div class="slogan-box">
+                            <p>Dear Customer, We have launched Video KYC facility for New customer to open savings ac
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Main Header Style1 Bottom-->
+
+        </header>
+
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+
+        <!--Main Slider Start-->
+        <section class="main-slider main-slider-style1">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+                "effect": "fade",
+                "pagination": {
+                "el": "#main-slider-pagination",
+                "type": "bullets",
+                "clickable": true
+                },
+                "navigation": {
+                "nextEl": "#main-slider__swiper-button-next",
+                "prevEl": "#main-slider__swiper-button-prev"
+                },
+                "autoplay": {
+                "delay": 5000
+                }}'>
+                <div class="swiper-wrapper">
+                    <div class="slider-buttom-box">
+                        
+                    </div>
+
+                    <!--Start Single Swiper Slide-->
+                    <div class="swiper-slide">
+                        <div class="image-layer" style="background-image: url(assets/images/slides/slide-v1-1.jpg);">
+                        </div>
+                        <div class="main-slider-style1__shape1"
+                            style="background-image: url(assets/images/shapes/slider-1-shape-1.png);">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider-content">
+                                        <div class="main-slider-content__inner">
+                                            <div class="big-title">
+                                                <h2>Bank with the<br> Happiest Customers<br> in the World</h2>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    On the other hand, we denounce with righteous indignation<br>
+                                                    and dislike men who are so beguiled.
+                                                </p>
+                                            </div>
+                                            <div class="btns-box">
+                                                <a class="btn-one" href="{% url 'credentials:login'%}">login</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Swiper Slide-->
+
+                    <!--Start Single Swiper Slide-->
+                    <div class="swiper-slide">
+                        <div class="image-layer" style="background-image: url(assets/images/slides/slide-v1-2.jpg);">
+                        </div>
+                        <div class="main-slider-style1__shape1"
+                            style="background-image: url(assets/images/shapes/slider-1-shape-1.png);">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider-content">
+                                        <div class="main-slider-content__inner">
+                                            <div class="big-title">
+                                                <h2>Banking Made<br> Easy, More Secure &<br> More Personal</h2>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    Their duty through weakness of will, which is the same as<br> saying
+                                                    through shrinking from toil.
+                                                </p>
+                                            </div>
+                                            <div class="btns-box">
+                                                <a class="btn-one" href="{% url 'credentials:login'%}">
+                                                    <span class="txt">
+                                                      login
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Swiper Slide-->
+
+                    <!--Start Single Swiper Slide-->
+                    <div class="swiper-slide">
+                        <div class="image-layer" style="background-image: url(assets/images/slides/slide-v1-3.jpg);">
+                        </div>
+                        <div class="main-slider-style1__shape1"
+                            style="background-image: url(assets/images/shapes/slider-1-shape-1.png);">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider-content">
+                                        <div class="main-slider-content__inner">
+                                            <div class="big-title">
+                                                <h2>An Innovative<br> Framework for Your<br> Financial solutions</h2>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    Their duty through weakness of will, which is the same as<br> saying
+                                                    through shrinking from toil.
+                                                </p>
+                                            </div>
+                                            <div class="btns-box">
+                                                <a class="btn-one" href="{% url 'credentials:login'%}">
+                                                    <span class="txt">
+                                                      login
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Swiper Slide-->
+
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                        <i class="icon-chevron left"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                        <i class="icon-chevron right"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <br>
+        <!--Main Slider End-->
+
+        <!--Start Features Style1 Area-->
+        <br>
+        <br>
+        <br>
+    <section>
+        <div class="container">
+            <div class="row">
+              <br>
+              
+            <img src="{% static 'assets/images/resources/2.jpg'%}" alt="image" width="100%" height="600px">
+            <br>
+            <br>
+         <a href="{% url 'banckapp:person_add' %}" class="btn btn-primary"
+              style="font-size:35px;margin-left:50px; magin-left:100px">Fill The Form</a></centar>
+            <br>
+          </div><!-- End Hero -->
+        <!--End Features Style1 Area-->
+
+        <!--Start Service Style1 Area-->
+        
+
+        <!--Start Wealth Secure Area-->
+       
+               
+        </section>
+        <!--End Wealth Secure Area-->
+
+        <!--Start Features Style2 Area-->
+        <section class="features-style2-area">
+           
+                                <!--End Features Style2 Tab Button-->
+
+                                <!--Start Tabs Content Box-->
+                               
+
+                                    <!--Tab-->
+                                    
+                                                                <!--End Single Item-->
+                                                               
+                                    <!--Tab-->
+                                   
+        <!--End Features Style2 Area-->
+
+        <!--Start Features Style3 Area-->
+        
+        <!--End Features Style3 Area-->
+
+        <!--Start Money Exchange Rates Area-->
+        
+        <!--End Money Exchange Rates Area-->
+
+
+        <!--Start Faq Style1 Area-->
+        
+        <!--End Faq Style1 Area-->
+
+        <!--Start Deals Area-->
+        
+
+        <!--Start EMI Calculator Area-->
+       
+        <!--End slogan area-->
+
+
+        <!--Start footer area -->
+       
+        <!--End footer area-->
+    </div>
+    <!-- /.page-wrapper -->
+
+
+
+
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler">
+                <i class="fas fa-plus"></i>
+            </span>
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image">
+                    <img src="assets/images/resources/mobile-nav-logo.png" alt="" />
+                </a>
+            </div>
+            <div class="mobile-nav__container"></div>
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:123456789">444 000 777 66</a>
+                </li>
+            </ul>
+            <div class="mobile-nav__social">
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-facebook-square"></a>
+                <a href="#" class="fab fa-pinterest-p"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label>
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <i class="icon-chevron"></i>
+    </a>
+
+
+    <script src="{% static 'assets/vendors/jquery/jquery-3.6.0.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/bxslider/jquery.bxslider.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/circleType/jquery.circleType.js' %}"></script>
+    <script src="{% static 'assets/vendors/circleType/jquery.lettering.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/isotope/isotope.js' %}"></script>
+    <script src="{% static 'assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/jquery-appear/jquery.appear.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/jquery-migrate/jquery-migrate.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/jquery-ui/jquery-ui.js' %}"></script>
+    <script src="{% static 'assets/vendors/jquery-validate/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/nice-select/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/odometer/odometer.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/owl-carousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/swiper/swiper.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/vegas/vegas.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/wnumb/wNumb.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/wow/wow.js' %}"></script>
+    <script src="{% static 'assets/vendors/extra-scripts/jquery.paroller.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/language-switcher/jquery.polyglot.language.switcher.js' %}"></script>
+
+    <!-- Template js -->
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+
+
+</body>
+
+</html>
